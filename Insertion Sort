@@ -1,0 +1,25 @@
+
+class Solution
+{
+ // static void insert(int arr[],int i)
+  //{
+      // insertionSort(arr,i);
+ // }
+  //Function to sort the array using insertion sort algorithm.
+  void insertionSort(int a[], int n)
+   {
+       //code here
+       int temp;
+       for(int i=1;i<n;i++)
+       {
+         temp=a[i];
+         int j=i-1;
+         while(j>=0 && a[j]>temp)
+         {
+             a[j+1]=a[j];
+             j--;
+         }
+         a[j+1]=temp;
+       }
+   }
+}
