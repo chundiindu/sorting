@@ -1,4 +1,6 @@
 it is a stable algorithim
+o(n^2) -- bubble sort
+0(n) - best case if the array is sorted
 
 
 
